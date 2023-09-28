@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NASA APOD</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css6.css">
+</head>
+<body>
+<div class="github">
+    <h1>Reverse String</h1>
+    <input type="text" id="inputField" placeholder="Type something...">
+    <div id="reversedText"></div>
+</div>
+<div>
+    <h1>APOD</h1>
+    <div id="apod-info">
+        <h2>Info:</h2>
+        <div id="image-container">
+            <img id="apod-image" src="" alt="APOD">
+        </div>
+        <p id="apod-title">Name: </p>
+        <p id="apod-date">Date: </p>
+        <p id="apod-description">Description: </p>
+    </div>
+    <div id="error-message" style="color: red;"></div>
+    <div id="completion-message" style="color: green;"></div>
+    <div id="date-buttons">
+    </div>
+</div>
+<div class="github">
+    <h1>GitHub Profile Info</h1>
+    <button id="validRequestButton">Valid Request</button>
+    <button id="errorRequestButton">Intentional Error Request</button>
+    <div id="responseContainer">
+        <h2>Response:</h2>
+        <pre id="responseText"></pre>
+    </div>
+</div>
+<script src="../scripts/script6.js"></script>
+</body>
+</html>
